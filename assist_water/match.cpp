@@ -399,6 +399,8 @@ Mat ransac(const vector<Point2f> &points_1, const vector<Point2f> &points_2, str
 
 
 /********************该函数生成两幅图的棋盘网格图*************************/
+
+// 棋盘图的生成
 /*image_1表示参考图像
  image_2表示配准后的待配准图像
  chessboard_1表示image_1的棋盘图像
